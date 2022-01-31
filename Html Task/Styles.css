@@ -1,0 +1,66 @@
+h1 {
+    font-weight: normal;
+}
+h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+table {
+    border: 2px solid black;
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 2px solid black;
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 2px solid black;
+ }
+ table {
+     border-collapse: collapse;
+ }
+ .TableDiv {
+    display:block; 
+    margin:auto;
+    width:50%;
+ }
+ .HeadPart {
+    font-size: big;
+    font-weight: normal;
+    display:block; 
+    margin:auto;
+    width:50%;
+ }
+ .verticaltext {
+    writing-mode: vertical-lr; 
+    text-orientation: upright; 
+ }
+
+ .caption {
+     text-align: left;
+     font-style: italic;
+ }
+ body div{
+    font-family:'Times New Roman',sans-serif;
+    font-size: medium;
+    font-weight: normal;
+ }
+body p {
+    font-family:'Times New Roman',sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.Time {
+    vertical-align: top;
+    font-weight: bold;
+}
+.Copyright {
+    display:block; /*Делаем блочный элемент*/
+    margin:auto;/*Задаем автоматический внешний отступ*/
+    width:50%;
+    text-align: center;
+}
+.VerticalRow {
+    writing-mode: vertical-rl
+}
+
