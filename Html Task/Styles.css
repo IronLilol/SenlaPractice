@@ -31,11 +31,11 @@ table {
     margin:auto;
     width:50%;
  }
- .verticaltext {
-    writing-mode: vertical-lr; 
-    text-orientation: upright; 
- }
-
+ .VerticalRow {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: justify;
+}
  .caption {
      text-align: left;
      font-style: italic;
@@ -50,17 +50,11 @@ body p {
     font-size: medium;
     font-weight: normal;
 }
-.Time {
-    vertical-align: top;
-    font-weight: bold;
-}
 .Copyright {
     display:block; /*Делаем блочный элемент*/
     margin:auto;/*Задаем автоматический внешний отступ*/
     width:50%;
     text-align: center;
 }
-.VerticalRow {
-    writing-mode: vertical-rl
-}
+
 

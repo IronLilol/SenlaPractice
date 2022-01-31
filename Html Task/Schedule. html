@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+</head>
+<body>
+    <!--Простые Теги, <a> тут Якорь для ссылки ниже-->
+    <p>
+        <a name="Top part"></a>
+        <h3><b>Биография</b></h3>
+    </p>
+    <p>
+         Имя - <i>Джон Сноу</i>, дата рождения - <b title="Подсказка">23 декабря 1985</b> <br>
+         3<sup>2</sup> - log<sub>2</sub>4 <strike>Умер</strike> <hr>
+         <abbr title= "Author">JRR</abbr> Marting, <address>Usa, Florida</address><br>
+         Пример - <big>Больше</big> - <small title="Подсказка">Меньше</small> 
+    </p>
+    <p>С сохранением пробелов</p> 
+    <!--Довольно прикольный Pre, который сохраняет пробелы и переносы текста-->
+    <pre>Все 
+    пробелы
+    сохранились       здесь</pre>
+    <!--Списки-->
+    <p>
+        <ol start="5">
+            <li>Первый</li>
+            <li>Второй</li>
+            <li>Третий</li>
+        </ol>
+        <ul>
+            <li>Раз</li>
+            <li>Два</li>
+        </ul>
+    </p>
+    <!--Ссылочки, у target ещё может быть _self(в этой же вкладке) и _parent(загружает фрейм-родитель)
+    Для ссылки на элемент на странице нужен тег <a> якорь, и перед названием якоря в самой ссылке знак #-->
+    <p>
+        <a href="https://yandex.ru/" title="Мамой клянусь просто Яндекс" target="_blank"> Рандомная ссылка на Яндекс</a> <br>
+        <a href="Crowd.html" target="_self">Что-то, что сделаю потом из той же папки</a> <br>
+        <a href="#Top part"> А чуть повыше не хотите?</a> <br>
+        <a href="mailto:Robopes@yandex.ru"> Нарисать на мыло Робопсу</a>
+    </p>
+
+
+</body>
+</html>
